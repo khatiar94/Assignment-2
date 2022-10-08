@@ -3,6 +3,8 @@
 .logo {
 	display: inline-block;
 	margin-right: 50px;
+	margin-left: 20px;
+	width: 45px;
 }
 
 .navigation {
@@ -11,22 +13,131 @@
 
 .nav-li {
 	display: inline-block;
+	padding: 18px 10px 27px 15px;
+	font-size: 15px;
 }
 
-.header-frame {
-	background: lightblue;
-	padding: 20px;
+.girlimage {
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+
+.nav-li-home {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.header-wraper {
+	padding: 5px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 85;
+	background: white;
+}	
+
+.section-after-header {
+	margin-top: 90px; 
+	margin-bottom: 90px;
 }
 
-.header-text {
-	margin-top: 57px;
+
+/* top division  */
+
+.left-block {
+	display: inline-block;
+	margin-left: 140px;
+	max-width: 350px;
 }
 
-/* add scrolling */
-body {
-	height: 1900px;
+.middle-block {
+	display: inline-block;
+	margin-left: 30px;
+	max-width: 350px;
+	vertical-align: top;
+}
+
+.right-block {
+	display: inline-block;
+	margin-left: 30px;
+	max-width: 350px;
+	vertical-align: top;
+}
+
+.main-title-block {
+	font-size: 24px;
+	margin-left: 140px;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.title-block {
+	position: absolute;
+	top: 47px;
+	left: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.image-wraper-block {
+	position: relative;
+	display: inline-block;
+}
+
+.text-block {
+	display: inline-block;
+	margin-top: 30px;
+	width: 350px;
+}
+
+.clock-block {
+	padding-top: 12px;
+	padding-right: 10px;
+}
+
+.text-wraper-block {
+	color: #A6ADB4;
+}
+
+/* left division  */
+
+.title-block2 {
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.image-wraper-block2 {
+	position: relative;
+	display: inline-block;
+	margin-left: 140px;
+	padding-bottom: 40px;
+}
+
+
+/* right division  */
+
+.left-images-block {
+	display: inline-block;
+	max-width: 350px;
+	vertical-align: top;
+}
+
+.right-images-block {
+	display: inline-block;
+	max-width: 30px;
+	vertical-align: top;
+	margin-left: 570px;
+}
+
+.middle-image {
+	padding-top: 100px;
+	padding-bottom: 100px;
+
 }
