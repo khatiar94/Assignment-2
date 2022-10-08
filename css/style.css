@@ -1,0 +1,32 @@
+/* header */
+
+.logo {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.navigation {
+	display: inline-block;
+}
+
+.nav-li {
+	display: inline-block;
+}
+
+.header-frame {
+	background: lightblue;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.header-text {
+	margin-top: 57px;
+}
+
+/* add scrolling */
+body {
+	height: 1900px;
+}
