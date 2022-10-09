@@ -9,12 +9,14 @@
 
 .navigation {
 	display: inline-block;
+	color: blueviolet;
 }
 
 .nav-li {
 	display: inline-block;
 	padding: 18px 10px 27px 15px;
 	font-size: 15px;
+	font-family: 'Inter', sans-serif;	
 }
 
 .girlimage {
@@ -26,6 +28,7 @@
 .nav-li-home {
 	display: inline-block;
 	font-weight: bold;
+	color: black;
 }
 
 .header-wraper {
@@ -71,6 +74,7 @@
 	margin-left: 140px;
 	margin-bottom: 40px;
 	font-weight: bold;
+	font-family: 'Roboto';
 }
 
 .title-block {
@@ -141,3 +145,4 @@
 	padding-bottom: 100px;
 
 }
+
