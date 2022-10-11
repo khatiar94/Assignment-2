@@ -9,14 +9,13 @@
 
 .navigation {
 	display: inline-block;
-	color: blueviolet;
 }
 
 .nav-li {
 	display: inline-block;
 	padding: 18px 10px 27px 15px;
 	font-size: 15px;
-	font-family: 'Inter', sans-serif;	
+	font-family: 'Inter', sans-serif;
 }
 
 .girlimage {
@@ -25,11 +24,6 @@
 	margin-top: 15px;
 }
 
-.nav-li-home {
-	display: inline-block;
-	font-weight: bold;
-	color: black;
-}
 
 .header-wraper {
 	padding: 5px;
@@ -42,8 +36,12 @@
 }	
 
 .section-after-header {
+	width: 1400px;
+	height: 300px;
+	box-sizing: border-box;
 	margin-top: 90px; 
-	margin-bottom: 90px;
+	margin-bottom: 120px;
+	vertical-align: top;
 }
 
 
@@ -59,14 +57,12 @@
 	display: inline-block;
 	margin-left: 30px;
 	max-width: 350px;
-	vertical-align: top;
 }
 
 .right-block {
 	display: inline-block;
 	margin-left: 30px;
 	max-width: 350px;
-	vertical-align: top;
 }
 
 .main-title-block {
@@ -106,7 +102,15 @@
 	color: #A6ADB4;
 }
 
+
 /* left division  */
+
+.bottom-block {
+	width: 1400px;
+	height: 100px;
+	box-sizing: border-box;
+	margin: 0auto;
+}
 
 .title-block2 {
 	position: absolute;
