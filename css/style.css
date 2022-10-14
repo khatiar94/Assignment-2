@@ -109,7 +109,7 @@
 	width: 1400px;
 	height: 100px;
 	box-sizing: border-box;
-	margin: 0auto;
+	margin: auto;
 }
 
 .title-block2 {
@@ -147,6 +147,5 @@
 .middle-image {
 	padding-top: 100px;
 	padding-bottom: 100px;
-
 }
 
